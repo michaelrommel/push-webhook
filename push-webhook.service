@@ -1,0 +1,9 @@
+[Service]
+Type=simple
+User=blog
+Group=blog
+Environment="PATH=/home/blog/.local/share/mise/shims:/home/blog/bin:/usr/local/bin:/usr/bin:/bin"
+PassEnvironment=PATH
+WorkingDirectory=/home/blog/push-webhook
+ExecStart=/home/blog/.local/share/mise/shims/python3 push-webhook.py
+

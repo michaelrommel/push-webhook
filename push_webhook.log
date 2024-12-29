@@ -1,0 +1,23 @@
+INFO:push_webhook.__main__:initializing PubSub
+INFO:push_webhook.__main__:initializing PubSub
+INFO:push_webhook.__main__:subscribing to channel
+INFO:push_webhook.__main__:pulling journal repo
+WARNING:push_webhook.__main__:received signal 2, graceful ending the process
+INFO:push_webhook.__main__:unsubscribing from channel
+INFO:push_webhook.__main__:closing kvstore channel
+INFO:push_webhook:initializing PubSub
+INFO:push_webhook:subscribing to channel
+WARNING:push_webhook:received signal 2, graceful ending the process
+INFO:push_webhook:unsubscribing from channel
+INFO:push_webhook:closing kvstore channel
+INFO:push_webhook:initializing PubSub
+INFO:push_webhook:subscribing to channel
+INFO:push_webhook:pulling journal repo
+WARNING:push_webhook:received signal 2, graceful ending the process
+INFO:push_webhook:unsubscribing from channel
+INFO:push_webhook:closing kvstore channel
+INFO:push_webhook:initializing PubSub
+INFO:push_webhook:subscribing to channel
+WARNING:push_webhook:received signal 15, graceful ending the process
+INFO:push_webhook:unsubscribing from channel
+INFO:push_webhook:closing kvstore channel
