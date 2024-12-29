@@ -7,7 +7,7 @@ from logging import getLogger, basicConfig, INFO
 from signal import signal, SIGINT, SIGTERM
 
 p = ""
-mylogger = getLogger("push_webhook")
+mylogger = getLogger("push-webhook")
 
 
 def sighandler(name, _frame):
@@ -20,7 +20,7 @@ def sighandler(name, _frame):
 def main():
     global p
     global mylogger
-    basicConfig(filename="push_webhook.log", level=INFO)
+    basicConfig(filename="push-webhook.log", level=INFO)
     signal(SIGINT, sighandler)
     signal(SIGTERM, sighandler)
     mylogger.info("initializing PubSub")

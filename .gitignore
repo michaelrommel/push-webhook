@@ -2,4 +2,4 @@ tags
 .DS_Store
 .env
 .env*
-
+*.log
